@@ -10,7 +10,7 @@ plugins{
 
 group = 'com.github.seanrl'
 //version = project.hasProperty('release') ? baseVersion : "$baseVersion-SNAPSHOT"
-version = '2.5.4'
+version = '2.5.5'
 description = "Gradle plugin to ease development with XSD's using the jaxb ant task"
 
 
