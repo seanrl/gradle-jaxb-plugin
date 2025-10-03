@@ -44,7 +44,7 @@ dependencies {
 
 // NOTE:    The gradle.publish.key and gradle.publish.secret need added to your ~/.gradle/gradle.properties as per the
 //          instructions located at https://plugins.gradle.org/docs/submit
-//    tags = ['jaxb', 'xsd', 'xjc']
+
 gradlePlugin{
     website = 'https://github.com/seanrl/gradle-jaxb-plugin'
     vcsUrl = 'https://github.com/seanrl/gradle-jaxb-plugin'
@@ -55,6 +55,7 @@ gradlePlugin{
             displayName = 'Gradle JAXB plugin'
             description = project.description
             implementationClass = 'org.openrepose.gradle.plugins.jaxb.JaxbPlugin'
+            tags = ['jaxb', 'xsd', 'xjc']
         }
     }
 }
