@@ -30,7 +30,8 @@ dependencies {
     implementation localGroovy()
     implementation 'org.codehaus.groovy:groovy-all:3.0.22'
     implementation 'org.slf4j:slf4j-api:1.7.6'
-    implementation 'com.google.inject:guice:3.0'
+    implementation 'com.google.inject:guice:7.0.0'
+    implementation 'com.google.guava:guava:33.4.8-jre'
     implementation 'com.google.inject.extensions:guice-assistedinject:7.0.0'
 
     //testCompile 'org.spockframework:spock-core:0.7-groovy-1.8' // v1.12
