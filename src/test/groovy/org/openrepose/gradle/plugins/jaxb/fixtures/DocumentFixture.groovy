@@ -1,6 +1,6 @@
 package org.openrepose.gradle.plugins.jaxb.fixtures
 
-import groovy.util.slurpersupport.GPathResult
+import groovy.xml.slurpersupport.GPathResult
 
 import org.openrepose.gradle.plugins.jaxb.BaseSpecification
 import org.openrepose.gradle.plugins.jaxb.schema.XsdDocument

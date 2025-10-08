@@ -4,6 +4,7 @@ import com.google.inject.Inject
 
 import org.openrepose.gradle.plugins.jaxb.schema.BaseSchemaDocument
 import org.openrepose.gradle.plugins.jaxb.schema.SchemaDocumentFactory
+import groovy.xml.XmlSlurper
 
 /**
  * Handles the creation of a {@code BaseSchemaDocument}.

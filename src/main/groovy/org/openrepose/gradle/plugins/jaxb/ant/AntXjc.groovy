@@ -4,6 +4,7 @@ import org.gradle.api.internal.project.DefaultAntBuilder
 import org.gradle.api.logging.Logger
 import org.gradle.api.logging.Logging
 import org.openrepose.gradle.plugins.jaxb.extension.XjcExtension
+import groovy.ant.AntBuilder
 
 /**
  * Defines and executes the {@code xjc} ant task.

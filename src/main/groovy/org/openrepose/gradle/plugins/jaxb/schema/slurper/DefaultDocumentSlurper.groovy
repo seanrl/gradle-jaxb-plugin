@@ -1,6 +1,6 @@
 package org.openrepose.gradle.plugins.jaxb.schema.slurper
 
-import groovy.util.slurpersupport.GPathResult
+import groovy.xml.slurpersupport.GPathResult
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

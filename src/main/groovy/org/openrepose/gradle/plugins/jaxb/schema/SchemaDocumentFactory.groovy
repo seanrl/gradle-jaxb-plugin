@@ -1,7 +1,7 @@
 package org.openrepose.gradle.plugins.jaxb.schema
 
 import com.google.inject.name.Named
-import groovy.util.slurpersupport.GPathResult
+import groovy.xml.slurpersupport.GPathResult
 
 /**
  * Interface for Guice

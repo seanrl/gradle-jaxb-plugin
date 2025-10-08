@@ -36,8 +36,13 @@ Any version of jaxb that you care to use will work.
 [source, groovy]
 ----
 dependencies {
-  jaxb 'org.glassfish.jaxb:jaxb-xjc:2.2.11'
-  jaxb 'org.glassfish.jaxb:jaxb-runtime:2.2.11'
+  jaxb 'org.glassfish.jaxb:jaxb-xjc:4.0.6',
+       'org.glassfish.jaxb:jaxb-runtime:4.0.6',
+       'com.sun.xml.bind:jaxb-ri:4.0.6',
+       'org.jvnet.jaxb:jaxb-plugins:4.0.8',
+       'org.jvnet.jaxb:jaxb-plugins-ant:4.0.8',
+       'org.jvnet.jaxb:jaxb-plugin-annotate:4.0.8',
+       'org.jvnet.jaxb:jaxb-plugins-runtime:4.0.8'
   xjc  'com.example:xjc-plugin:0.0.0'
 }
 ----

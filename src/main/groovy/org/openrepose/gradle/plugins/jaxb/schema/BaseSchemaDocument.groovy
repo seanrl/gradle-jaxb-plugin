@@ -1,6 +1,6 @@
 package org.openrepose.gradle.plugins.jaxb.schema
 
-import groovy.util.slurpersupport.GPathResult
+import groovy.xml.slurpersupport.GPathResult
 
 import com.google.inject.Inject
 import org.openrepose.gradle.plugins.jaxb.schema.resolver.DocumentResolver

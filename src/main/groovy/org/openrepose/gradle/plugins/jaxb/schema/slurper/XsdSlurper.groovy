@@ -1,6 +1,6 @@
 package org.openrepose.gradle.plugins.jaxb.schema.slurper
 
-import groovy.util.slurpersupport.GPathResult
+import groovy.xml.slurpersupport.GPathResult
 
 /**
  * Slurps and finds XSD specific data
