@@ -190,7 +190,7 @@ class JaxbPlugin implements Plugin<Project> {
                                 JaxbExtension jaxb,
                                 JaxbDependencyTree jnt,
                                 def injector) {
-    JaxbXjc xjc = project.tasks.create(JAXB_XJC_TASK, JaxbXjc)
+    JaxbXjc xjc = project.tasks.register(JAXB_XJC_TASK, JaxbXjc).get()
     xjc.description = "run through the Directory Graph for " +
             "${jaxb.xsdDir} and parse all schemas in order while " +
             (project.jaxb.xjc.generateEpisodeFiles ? "" : "not ") +
